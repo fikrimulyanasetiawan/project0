@@ -1,0 +1,35 @@
+$links : #33E1FF;
+$brand : #1493B6;
+$box-shadow: 0px 8px 15px 0px rgba(0,0,0,0.26);
+$background: url("background.jpg");
+$headline: white;
+$font-bold: 700;
+$font: 'Montserrat', sans-serif;
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+* {
+ font-family: $font;
+}
+
+body {
+    background-image: $background;
+}
+
+.navbar-brand  a {
+    color: $brand;
+}
+
+nav {
+    a {
+        color: $links;
+    }
+    box-shadow: $box-shadow;
+}
+
+h3 {
+    color: $headline;
+    font-weight: $font-bold;
+}
