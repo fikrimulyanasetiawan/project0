@@ -22,4 +22,20 @@ footer {
   color: white;
 }
 
+div > a {
+  background-color: #aa6f73;
+  font-size: 24px;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 15px;
+  color: white;
+}
+
+div > a:hover {
+  background-color: #AA6C70;
+  text-decoration: none;
+  color: white;
+  box-shadow: -2px 14px 28px -18px rgba(0, 0, 0, 0.75);
+}
+
 /*# sourceMappingURL=style.css.map */
