@@ -33,7 +33,7 @@ footer {
 }
 
 //Buttons
-div > a {
+div > #btnmain {
     background-color: $colorbtn;
     font-size: 24px;
     padding: 10px;
@@ -43,7 +43,7 @@ div > a {
     
 }
 
-div > a:hover {
+div > #btnmain:hover {
   background-color: $colorbtn-dark;
   text-decoration: none;
   color: white;
