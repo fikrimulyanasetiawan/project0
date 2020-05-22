@@ -1,3 +1,7 @@
-.my-col {
-    border: 1px solid white;
+.my-col > img {
+    border: 5px solid white;
+}
+
+h1 {
+    color: white;
 }
