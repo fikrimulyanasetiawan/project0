@@ -1,7 +1,14 @@
-.my-col > img {
-    border: 5px solid white;
+.my-col img {
+  border: 5px solid white;
+  cursor: pointer;
 }
 
 h1 {
-    color: white;
+  color: white;
 }
+
+.my-col .image:hover {
+  box-shadow: -2px 14px 28px -18px rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=portfolio.css.map */
