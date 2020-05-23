@@ -1,0 +1,31 @@
+
+/* form */
+label {
+    color: white;
+}
+
+form{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+input[type=text] {
+    border-radius: 15px !important; 
+    padding: 5px;  
+}
+
+button {
+    border-radius: 15px !important;
+    background-color: #66545e;
+    color: white;
+}
+
+button:hover {
+    background-color: #6F5D67;
+}
+
+input[type=email] {
+    border-radius: 15px !important;
+    padding: 5px;  
+}
